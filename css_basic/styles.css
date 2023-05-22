@@ -1,0 +1,54 @@
+header {
+    background-color: darksalmon;
+}
+footer {
+    background-color: darksalmon;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    background-color: bisque;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+
+}
+#img{
+    border-top-right-radius: 50%;
+    border: black 10px double;
+    background-clip: content-box;
+    transition: 1s ease;
+    
+}
+#img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+#linked{
+    border-top-left-radius: 50%;
+    border: black 10px double;
+    background-clip: content-box;
+    transition: 1s ease;
+}
+#linked:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+#it{
+    color: darkslategrey;
+}
